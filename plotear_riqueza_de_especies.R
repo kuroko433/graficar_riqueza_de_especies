@@ -180,7 +180,7 @@ plot(mio.richness_raster)
 
 mio.gamma_sr_df<-terra::as.data.frame(mio.richness_raster, xy = T)
 
-##### vamos a plotear la riqueza de especies #####
+##### vamos a plotear la riqueza de generos #####
 
 miocene_diversity <- ggplot() + 
   geom_sf(data = miocene_poly, fill = "grey70", col = 'black', lwd = 0.2)+ 
